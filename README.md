@@ -1,4 +1,16 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Landing page Museum
+
+  [DEMO LINK](https://proph7000.github.io/Museum-of-Art/)
+
+  Created on the basis of [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3-(Edit)?node-id=0%3A1)
+
+# Technologies used:
+  - HTML;
+  - SCSS;
+  - BEM;
+  - javascript;
+  - Google fonts;
+
+# Implemented features:
+  - responsive layout;
+  - slider with swipes on mobile devices.
