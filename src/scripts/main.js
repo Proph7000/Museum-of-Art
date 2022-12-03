@@ -75,14 +75,14 @@ function handleSwipe() {
   carousel.addEventListener('touchend', event => {
     endTouch = event.changedTouches[0].clientX;
 
-    if (startTouch - endTouch > 0) {
+    if (startTouch - endTouch > 50) {
       currentPoint = +currentPoint + 1;
       rotateImages(currentPoint);
       currentPoint = currentPoint === 5 ? 0 : currentPoint;
       togglePointActiveClass(currentPoint);
     }
 
-    if (startTouch - endTouch < 0) {
+    if (startTouch - endTouch < -50) {
       currentPoint -= 1;
       rotateImages(currentPoint);
       currentPoint = currentPoint === -1 ? 4 : currentPoint;
