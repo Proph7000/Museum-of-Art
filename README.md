@@ -1,4 +1,4 @@
-# Landing page Museum
+# Museum landing page 
 
   [DEMO LINK](https://proph7000.github.io/Museum-of-Art/)
 
